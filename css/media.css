@@ -1,0 +1,35 @@
+@media screen and (max-width: 992px) {
+    .form-row-input {
+        opacity: 1;
+    }
+    #container {
+        width: 850px;
+    }
+    form {
+        margin: 5px 5px;
+    }
+    .form-row-input {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        width: 524px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    #container {
+        width: 292px;
+    }
+}
+
+@media (min-width: 850px) {
+    .col-submit button {
+        width: 30%;
+        margin: 0 auto;
+    }
+}

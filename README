@@ -1,0 +1,9 @@
+This is a test task project.
+Done by Alex Pyslar - Svitla Systems.
+
+Everything (except Smarty) done from the scratch.
+I've also made my own validation, but in general there is possibility to use Smarty validation class as well.
+(http://www.phpinsider.com/php/code/SmartyValidate/)
+
+There is database table dump called "fields.sql" in db_dump directory.
+Connection with database is configured in: app\model\resource\DbConnector.php
